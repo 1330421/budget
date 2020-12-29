@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Logiciel de gestion de budget",
   "main": "server.js",
+  "type": "module",
   "scripts": {
+    "start": "nodemon ./server.js --inspect",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +22,10 @@
     "chalk": "^4.1.0",
     "dotenv-flow": "^3.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.11.8"
+    "express-validator": "^6.9.0",
+    "http-errors": "^1.8.0",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6"
   }
 }
